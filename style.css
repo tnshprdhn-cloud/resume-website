@@ -692,3 +692,20 @@ html, body {
     height: auto !important;
   }
 }
+/* Solid Green Button Styling */
+.btn, .btn-primary {
+  background-color: #1B4320 !important;
+  color: #ffffff !important;
+  padding: 12px 24px !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-weight: 600 !important;
+  border: 1px solid #1B4320 !important;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover, .btn-primary:hover {
+  background-color: #D4A338 !important;
+  color: #ffffff !important;
+}
