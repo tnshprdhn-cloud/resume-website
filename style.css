@@ -561,3 +561,63 @@ html, body {
     height: auto !important;
   }
 }
+/* Complete Mobile Layout & Navigation Fix */
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .nav-container, 
+  .navbar,
+  nav {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 10px 5px !important;
+  }
+
+  .navbar a,
+  nav a,
+  .nav-container a {
+    font-size: 12px !important;
+    padding: 5px 8px !important;
+    white-space: normal !important;
+    display: inline-block !important;
+  }
+
+  .grid-container,
+  .education-grid,
+  .projects-grid,
+  .skills-grid {
+    grid-template-columns: 1fr !important;
+    width: 100% !important;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .section, 
+  section,
+  .hero-section {
+    min-height: auto !important;
+    width: 100% !important;
+    padding: 30px 15px !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
